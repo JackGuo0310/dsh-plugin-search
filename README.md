@@ -1,10 +1,12 @@
 # dsh-plugin-search
 
+[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)
+
 不用官方 DeepSeek API，`web_search` 不再 401。
 
 默认零配置。装上就把内置 `web-search-deepseek` 关掉，工具名还是 `web_search`。
 
-对应：[Discussions #779](https://github.com/deepseek-ai/deepseek-harness/discussions/779) · [#408](https://github.com/deepseek-ai/deepseek-harness/discussions/408)
+对应：[Discussions #779](https://github.com/deepseek-ai/deepseek-harness/discussions/779) · [#408](https://github.com/deepseek-ai/deepseek-harness/discussions/408) · 介绍帖：[Show and tell #1715](https://github.com/deepseek-ai/deepseek-harness/discussions/1715)
 
 ## 安装
 

@@ -4,7 +4,8 @@
 
 仓库：`https://github.com/shinjiyu/dsh-plugin-search`  
 安装：`dsh plugin --profile web add github:shinjiyu/dsh-plugin-search`  
-对着：[Discussions #779](https://github.com/deepseek-ai/deepseek-harness/discussions/779) · [#408](https://github.com/deepseek-ai/deepseek-harness/discussions/408)
+对着：[Discussions #779](https://github.com/deepseek-ai/deepseek-harness/discussions/779) · [#408](https://github.com/deepseek-ai/deepseek-harness/discussions/408)  
+已发：[#779](https://github.com/deepseek-ai/deepseek-harness/discussions/779#discussioncomment-18025415) · [#408](https://github.com/deepseek-ai/deepseek-harness/discussions/408#discussioncomment-18025416) · [Show and tell #1715](https://github.com/deepseek-ai/deepseek-harness/discussions/1715)
 
 发之前：重启过 dsh、自己搜过一次。
 
