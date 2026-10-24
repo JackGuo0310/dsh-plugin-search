@@ -1,6 +1,6 @@
 {
   "name": "dsh-plugin-search",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Zero-config web_search for DeepSeek Harness when you are not on the official DeepSeek API.",
   "type": "module",
   "main": "./dist/index.js",
@@ -33,11 +33,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shinjiyu/dsh-plugin-search.git"
+    "url": "git+https://github.com/JackGuo0310/dsh-plugin-search.git"
   },
-  "homepage": "https://github.com/shinjiyu/dsh-plugin-search",
+  "homepage": "https://github.com/JackGuo0310/dsh-plugin-search",
   "bugs": {
-    "url": "https://github.com/shinjiyu/dsh-plugin-search/issues"
+    "url": "https://github.com/JackGuo0310/dsh-plugin-search/issues"
   },
   "keywords": [
     "dsh-plugin",
@@ -45,6 +45,14 @@
     "web-search"
   ],
   "license": "MIT",
+  "peerDependencies": {
+    "@deepseek-ai/dsh": ">=0.2.1-rc.2"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh": {
+      "optional": true
+    }
+  },
   "devDependencies": {
     "@types/node": "^24.2.0",
     "typescript": "^5.9.2"
