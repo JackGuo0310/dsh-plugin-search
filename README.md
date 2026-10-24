@@ -17,10 +17,14 @@
 DSH peer 版本要求：`@deepseek-ai/dsh >=0.2.1-rc.2`（本次修复验证的本机版本）。peer 标记为 optional，避免插件安装时额外拉取一份 DSH。
 
 ```powershell
-dsh plugin --profile web add github:JackGuo0310/dsh-plugin-search#v0.1.1
+dsh plugin --profile web add github:JackGuo0310/dsh-plugin-search#v0.1.2
 ```
 
 然后**重启** `dsh web`。旧会话的工具表不会更新。
+
+0.1.2 起 Git tag 自带编译产物，不再执行安装期 `prepare` 脚本，因此不需要在 pnpm 的 `allowBuilds` 中放行插件。0.1.1 在新版 pnpm 下可能报 `ERR_PNPM_GIT_DEP_PREPARE_NOT_ALLOWED`，请改装以上新 tag。
+
+维护时修改源码后运行 `npm ci` 和 `npm test`，并将更新后的 `dist/` 一起提交，再打新 tag；安装时不会自动重新编译。
 
 ## 配置
 
